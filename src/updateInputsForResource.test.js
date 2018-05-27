@@ -1,7 +1,8 @@
-const updateInputsForResource = require("./updateInputsForResource");
+const updateInputsForResource = require("./updateInputsForResource")
+    .updateInputsForResource;
 
-const papli = new updateInputsForResource("foo", "baaar");
+const papli = new updateInputsForResource("foo", "bar");
 
-test ("updateInputsForResource", ()=> {
-    expect(papli.doThing).toBe("boooblidoo");
-})
+test("updateInputsForResource", () => {
+    expect(papli.doThing).toBe("foobar");
+});

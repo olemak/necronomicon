@@ -1,10 +1,11 @@
 class updateInputsForResource {
     constructor(hey, ho) {
         this.hey = hey;
+        this.ho = ho;
     }
-    doThing () {
-        return "boooblidoo"
+    get doThing() {
+        return this.hey + this.ho;
     }
-}  
+}
 
-module.exports = {updateInputsForResource}
+module.exports = { updateInputsForResource };
