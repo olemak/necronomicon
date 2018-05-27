@@ -1,18 +1,22 @@
 {
-  "name": "olemak",
-  "version": "1.0.0",
-  "description": "test",
-  "main": "index.js",
-  "dependencies": {
-    "webpack": "^4.8.3"
-  },
-  "devDependencies": {
-    "webpack-cli": "^2.1.4"
-  },
-  "scripts": {
-    "test": "jest",
-    "start": "webpack -w"
-  },
-  "author": "",
-  "license": "ISC"
+    "name": "olemak",
+    "version": "1.0.0",
+    "description": "test",
+    "main": "index.js",
+    "dependencies": {
+        "jest": "^23.0.0",
+        "webpack": "^4.8.3"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-jest": "^23.0.0",
+        "regenerator-runtime": "^0.11.1",
+        "webpack-cli": "^2.1.4"
+    },
+    "scripts": {
+        "test": "jest --watch",
+        "start": "webpack -w"
+    },
+    "author": "",
+    "license": "ISC"
 }
